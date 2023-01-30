@@ -1,0 +1,50 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.primaryFont{
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+.secondaryFont{
+  font-family: 'Lato', sans-serif;
+}
+.myFont{
+  font-family: 'Lobster', cursive;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fasthand&family=Fuzzy+Bubbles&family=Lato&family=Lobster&display=swap');
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 10vw;
+  padding: 20px;
+  margin: 30px;
+}
+.card img{
+  width: 5vw;
+}
+
+.header{
+  background:url("./components/bg-1.jpeg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header2{
+  background:url("./components/bg-2.jpeg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
