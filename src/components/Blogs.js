@@ -3,7 +3,7 @@ import React from 'react'
 export default function Blogs() {
     return (
         <>
-        hello
+        hello 4th
             <div>
                 <div className=' flex flex-col justify-center items-start   m-10 lg:px-10'>
                     <h3 className='tracking-widest font-bold text-xs md:text-sm lg:text-base md:leading-loose'>&#9830; Introduction to Cryptocurrency and Blockchain Technology</h3>
